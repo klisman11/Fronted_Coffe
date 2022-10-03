@@ -5,8 +5,8 @@
                 <div class="col-12">
                     <div class="section-title text-center">
                         <div class="title-icon"></div>
-                        <h2 class="title">SCREENSHOTS</h2>
-                        <p class="paragraph">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                        <h2 class="title">GALERIA</h2>
+                        <p class="paragraph">Finca El Recuerdo.</p>
                     </div>
                 </div>
             </div>

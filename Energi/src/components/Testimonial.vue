@@ -19,16 +19,21 @@
                             :speed="1000"
                             :pagination="swiperOptions.pagination"
                         >
-                            <swiper-slide v-for="(client, clients) in clients" :key="clients" class="testimonial-item">
+                            
+                        <div id="categorias" v-if="categorias">                     
+                               <swiper-slide v-for="categoria in categorias" :key="categorias._id" class="testimonial-item">
                                 <div class="testimonial-thumb">
                                     <img :src="client.clientThumb" alt="client thumb">
                                 </div>
                                 <div class="testimonial-content">
-                                    <h6 class="client">{{ client.name }} - <span>{{ client.designation }}</span></h6>
-                                    <p>{{ client.desc }}</p>
+                                    <h6 class="categorias">{{ categoria.nombre }} - <span>{{ categoria.precio }}</span></h6>
+                                    <p>{{ categoria.descripicon }}</p>
                                 </div>
                             </swiper-slide>
+                        </div>
                         </swiper>
+                  
+
                         <div class="swiper-pagination pagination-dot-style"></div>
                     </div>
                 </div>
@@ -52,6 +57,10 @@
 
         data (){
             return {
+                categorias:[
+                    
+                ],
+
                 swiperOptions: {
                     pagination: {
                         el: '.testimonial-area .pagination-dot-style',
@@ -91,9 +100,13 @@
 
         methods:{
             getproducto(){
-                axios.get('http://localhost:8080/api/productos')
+                axios.get('http://localhost:8081/api/productos')
                 .then(res=>{
-                    console.log(res);
+                   
+                        this.categorias= res.data.productos ;
+                      
+                        console.log('datos',this.categorias);
+                  
                 });
             }
         }
