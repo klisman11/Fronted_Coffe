@@ -5,8 +5,8 @@
                 <div class="col-12">
                     <div class="section-title text-center" :class="['title-style-2 title-line-2', ContactStyle]">
                         <div class="title-icon" ></div>
-                        <h2 class="title">SUPPORT CLIENTS</h2>
-                        <p class="paragraph">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                        <h2 class="title">CONTACTO</h2>
+                        <p class="paragraph">Si tienes dudas puedes escribirnos</p>
                     </div>
                 </div>
             </div>
@@ -14,16 +14,16 @@
                 <div class="col-md-8">
                     <form action="#" class="support-form">
                         <div class="input-box">
-                            <input class="text-field" type="text" name="name" placeholder="Your Name" />
+                            <input class="text-field" type="text" name="name" placeholder="Nombre" />
                         </div>
                         <div class="input-box">
-                            <input class="text-field" type="email" name="email" placeholder="Your Email" />
+                            <input class="text-field" type="email" name="email" placeholder="Correo Electrónico" />
                         </div>
                         <div class="input-box">
-                            <textarea class="text-field" name="message"  placeholder="Your Message" ></textarea>
+                            <textarea class="text-field" name="message"  placeholder="Mensaje" ></textarea>
                         </div>
                         <div class="input-box">
-                            <input class="btn-submit" type="submit" value="SEND" />
+                            <input class="btn-submit" type="submit" value="ENVIAR" />
                         </div>
                     </form>
                 </div>
@@ -33,15 +33,15 @@
                             <div class="icon">
                                 <i class="fa fa-phone"></i>
                                 </div>
-                            <h6 class="support-title">telephones:</h6>
-                            <p>(+800) 123 456 789</p>
+                            <h6 class="support-title">Telefono</h6>
+                            <p>(+502)58694011</p>
                         </div>
                         <div class="single-info">	
                             <div class="icon">
                                 <i class="fa fa-envelope-open-o "></i>
                                 </div>
-                            <h6 class="support-title">Address email:</h6>
-                            <p>demo@fantasic.com</p>
+                            <h6 class="support-title">Correo Electrónico</h6>
+                            <p>klisoved28@gmail.com</p>
                         </div>
                     </div>
                 </div>

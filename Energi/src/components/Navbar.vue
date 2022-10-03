@@ -15,12 +15,11 @@
                             <span></span>
                         </div>
                         <ul class="main-menu">
-                            <li><a @click="close_menu()" href="#home" class="activee">Home</a></li>
-                            <li><a @click="close_menu()" href="#about">About</a></li>
-                            <li><a @click="close_menu()" href="#feature">Features</a></li>
-                            <li><a @click="close_menu()" href="#review">Review</a></li>
-                            <li><a @click="close_menu()" href="#screenshot">Screenshot</a></li>
-                            <li><a @click="close_menu()" href="#support">Support</a></li>
+                            <li><a @click="close_menu()" href="#home" class="activee">INICIO</a></li>
+                            <li><a @click="close_menu()" href="#about">NOSOTROS</a></li>
+                            <li><a @click="close_menu()" href="#review">CLIENTES</a></li>
+                            <li><a @click="close_menu()" href="#screenshot">GALERIA</a></li>
+                            <li><a @click="close_menu()" href="#support">CONTACTO</a></li>
                         </ul>
                     </div>
                 </div>

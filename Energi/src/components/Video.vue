@@ -5,7 +5,7 @@
                 <div class="col-lg-6 order-2 order-lg-1">
                     <div class="video-player">
                         <figure class="ratio ratio-16x9">
-                            <iframe src="https://www.youtube.com/embed/iaj8ktgL3BY" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe src="https://youtu.be/BL8z5kHLezE" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </figure>
                     </div>
                 </div>

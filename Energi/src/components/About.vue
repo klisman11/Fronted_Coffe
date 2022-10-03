@@ -29,24 +29,24 @@ export default {
         return {
              abouts:[
                 { 
-                    title: "BUILD SHOWCASE", 
-                    desc: "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.", 
+                    title: "ARABICA TÍPICA", 
+                    desc: "Uno de los cafés más importantes cultural y genéticamente de C. arabica en el mundo, con alta calidad en Centroamérica. ", 
                     icon: "fa fa-pagelines"
                 },
                 {
-                    title: "FULL RESPONSIVE", 
-                    desc: "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.", 
-                    icon: "fa fa-laptop"
+                    title: "BOURBOUN", 
+                    desc: "Uno de los cafés más importantes cultural y genéticamente de C. arabica en el mundo, conocidos por su excelente calidad de la bebida en las mayores altitudes.", 
+                    icon: "fa fa-pagelines"
                 },
                 {
-                    title: "RETINA READY", 
-                    desc: "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.", 
-                    icon: "fa fa-apple"
+                    title: "GEISHA", 
+                    desc: "En la taza, el Geisha Esmeralda despliega una agradable dulzura, claridad y un sabor brillante que puede variar desde bayas, cítricos, mango, papaya, melocotón, piña, guayaba, y jasmín. ", 
+                    icon: "fa fa-pagelines"
                 },
                 {
-                    title: "UNIQUE DESIGN", 
-                    desc: "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.", 
-                    icon: "fa fa-paint-brush"
+                    title: "CATURRA", 
+                    desc: "Una planta compacta con un buen potencial de rendimiento y de calidad estándar en Centroamérica.", 
+                    icon: "fa fa-pagelines"
                 }
             ]
         }

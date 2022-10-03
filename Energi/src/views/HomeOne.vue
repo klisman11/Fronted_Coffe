@@ -6,7 +6,7 @@
         <Slider />
         <About />
         <BestApp />
-        <Features />
+      
         <Testimonial />
         <Screenshot />
         <Video />

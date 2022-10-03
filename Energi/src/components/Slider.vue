@@ -21,8 +21,8 @@
                                         <h2 class="slider-title">{{ slider.sliderTitle }}</h2>
                                         <p class="slider-desc">{{ slider.sliderDesc }}</p>
                                         <div class="slider-btn">
-                                            <a href="#" class="read-more active"><i class="fa fa-apple"></i> Apple Store</a>
-                                            <a href="#" class="read-more"><i class="fa fa-android"></i> Google Play</a>
+                                            <a href="#" class="read-more active"><i class="fa fa-facebook"></i> Facebook</a>
+                                            <a href="#" class="read-more"><i class="fa fa-instagram"></i> Instagram</a>
                                         </div>
                                     </div>
                                 </div>
@@ -53,19 +53,19 @@
                 },
                 sliders: [
                     {
-                        sliderThumb: require("../assets/img/slider/1.png"), 
-                        sliderTitle: 'AWESOME MOBILE APP', 
-                        sliderDesc: 'An awesome Vue template for App landing and App Store site'
+                        sliderThumb: require("../assets/img/slider/home2-slide1.png"), 
+                        sliderTitle: 'FINCA EL RECUERDO', 
+                        sliderDesc: 'Logrando tener una alta taza de calidad'
                     },
                     {
-                        sliderThumb: require("../assets/img/slider/2.png"), 
-                        sliderTitle: 'AWESOME MOBILE APP', 
-                        sliderDesc: 'An awesome Vue template for App landing and App Store site'
+                        sliderThumb: require("../assets/img/slider/home2-slide1.png"), 
+                        sliderTitle: 'ENERCAF',
+                        sliderDesc: 'Con nuestras mejores variedades, Geisha,Arabigo, Bourboun'
                     },
                     {
-                        sliderThumb: require("../assets/img/slider/3.png"), 
-                        sliderTitle: 'AWESOME MOBILE APP', 
-                        sliderDesc: 'An awesome Vue template for App landing and App Store site'
+                        sliderThumb: require("../assets/img/slider/home2-slide1.png"), 
+                        sliderTitle: 'HUEHUETENANGO', 
+                        sliderDesc: 'Elaboramos con el mejor proceso'
                     },
                 ],
 
