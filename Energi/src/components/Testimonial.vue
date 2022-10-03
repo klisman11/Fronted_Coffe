@@ -5,8 +5,8 @@
                 <div class="col-12">
                     <div class="section-title text-center">
                         <div class="title-icon"></div>
-                        <h2 class="title text-white">HAPPY CLIENTS</h2>
-                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                        <h2 class="title text-white">PRODUCTO</h2>
+                        <p>Nuestras mejores variedades</p>
                     </div>
                 </div>
             </div>
@@ -40,6 +40,7 @@
 <script>
     import SwiperCore, { Pagination } from 'swiper/core'
     import { Swiper, SwiperSlide } from 'swiper/vue'
+    import axios from 'axios'
     SwiperCore.use([Pagination])
 
     export default {
@@ -82,6 +83,18 @@
                         desc: "Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima."
                     },
                 ]
+            }
+        },
+        mounted(){
+            this.getproducto();
+        },
+
+        methods:{
+            getproducto(){
+                axios.get('http://localhost:8080/api/productos')
+                .then(res=>{
+                    console.log(res);
+                });
             }
         }
     }
