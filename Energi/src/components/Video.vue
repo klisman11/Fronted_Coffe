@@ -5,7 +5,7 @@
                 <div class="col-lg-6 order-2 order-lg-1">
                     <div class="video-player">
                         <figure class="ratio ratio-16x9">
-                            <iframe src="https://www.youtube.com/watch?v=51h76yjA3wQ&ab_channel=ISOY" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/4WOkXHIkNLEu1GCxDGmFks?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         </figure>
                     </div>
                 </div>
@@ -13,14 +13,16 @@
                     <div class="bestapp-content-inner text-center">
                         <div class="section-title text-center">
                             <div class="title-icon"></div>
-                            <h2 class="title text-white">EMBED VIDEO SUPPORT LEFT, RIGHT OR FULL WIDTH</h2>
-                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                            <h2 class="title text-white">PROCESO DE CAFÉ</h2>
+                            <p>Para una buena taza de catación va depender del proceso, desde post cosecha.</p>
                         </div>
                         <div class="bestapp-content-text pb-0">
-                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
+                            <p>Algunos de los tips es para mejora de productividad y calidad.</p>
                             <ul class="video-list">
-                                <li> <i class="fa fa-check-square-o"></i> Perfect layout</li>
-                                <li> <i class="fa fa-check-square-o"></i> Sweet moves</li>
+                                <li> <i class="fa fa-check-square-o"></i> La fermentación</li>
+                                <li> <i class="fa fa-check-square-o"></i> Selección de grano</li>
+
+
                             </ul>
                         </div>
                     </div>

@@ -17,7 +17,7 @@
                         <ul class="main-menu">
                             <li><a @click="close_menu()" href="#home" class="activee">INICIO</a></li>
                             <li><a @click="close_menu()" href="#about">NOSOTROS</a></li>
-                            <li><a @click="close_menu()" href="#review">CLIENTES</a></li>
+                            <li><a @click="close_menu()" href="#review">PRODUCTOS</a></li>
                             <li><a @click="close_menu()" href="#screenshot">GALERIA</a></li>
                             <li><a @click="close_menu()" href="#support">CONTACTO</a></li>
                         </ul>
